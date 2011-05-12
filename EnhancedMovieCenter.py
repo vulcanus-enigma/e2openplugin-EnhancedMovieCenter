@@ -153,8 +153,9 @@ class EnhancedMovieCenterMenu(ConfigListScreen, Screen):
 		self.list.append(getConfigListEntry(_("EMC path access limit"), config.EMC.movie_pathlimit, self.validatePath, self.openLocationBox))
 		self.list.append(getConfigListEntry(_("Enable daily trashcan cleanup"), config.EMC.movie_trashcan_clean, trashCleanSetup))
 		self.list.append(getConfigListEntry(_("How many days files may remain in trashcan"), config.EMC.movie_trashcan_limit, None, None))
-		self.list.append(getConfigListEntry(_("Enable daily movie folder cleanup"), config.EMC.movie_finished_clean, trashCleanSetup))
-		self.list.append(getConfigListEntry(_("Days before cleaning finished movies"), config.EMC.movie_finished_limit, None, None))
+#TODO EMC 2.0.3
+#		self.list.append(getConfigListEntry(_("Enable daily movie folder cleanup"), config.EMC.movie_finished_clean, trashCleanSetup))
+#		self.list.append(getConfigListEntry(_("Days before cleaning finished movies"), config.EMC.movie_finished_limit, None, None))
 		self.list.append(getConfigListEntry(_("Daily cleanup time"), config.EMC.movie_trashcan_ctime, trashCleanSetup))
 		self.list.append(getConfigListEntry(_("Trashcan path"), config.EMC.movie_trashpath, self.validatePath, self.openLocationBox))
 		self.list.append(getConfigListEntry(_("Delete validation"), config.EMC.movie_trashcan_validation, None, None))

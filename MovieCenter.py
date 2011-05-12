@@ -688,9 +688,9 @@ class MovieCenter(GUIComponent, VlcPluginInterfaceList):
 				subdirlist.sort(key=lambda x: x[0].lower())
 			# Insert these entries always at last
 			if loadPath[:-1] == config.EMC.movie_homepath.value:
-				# Insert a virtual directory 'Latest Recordings
-				#TODO add config option
-				subdirlist.insert(0, ("Latest Recordings", "Latest Recordings"))
+#TODO EMC 2.0.3 enable and add config option
+#				# Insert a virtual directory 'Latest Recordings
+#				subdirlist.insert(0, ("Latest Recordings", "Latest Recordings"))
 				if os.path.exists("/usr/lib/enigma2/python/Plugins/Extensions/VlcPlayer") and not config.EMC.movie_vlc_hide.value:
 					subdirlist.insert(0, ("VLC servers", "VLC servers"))
 				if trashcan and not config.EMC.movie_trashcan_hide.value:
