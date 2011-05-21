@@ -81,7 +81,7 @@ class EMCMediaCenter( CutList, Screen, HelpableScreen, InfoBarSupport ):
 			{
 		# Disabled for tests
 		# If we enable them, the sound will be delayed for about 2 seconds ?
-		#		iPlayableService.evStart: self.__serviceStarted,
+				iPlayableService.evStart: self.__serviceStarted,
 				iPlayableService.evStopped: self.__serviceStopped,
 				#iPlayableService.evUser: self.__timeUpdated,
 				#iPlayableService.evUser+1: self.__statePlay,
@@ -431,6 +431,10 @@ class EMCMediaCenter( CutList, Screen, HelpableScreen, InfoBarSupport ):
 
 	def nextSubtitleTrack(self):
 		self.sendKey(iServiceKeys.keyUser+1)
+		if self.dvdScreen:
+			# Force show dvd screen
+			#self.dvdScreen.hide()
+			self.dvdScreen.show()
 
 	def enterDVDAudioMenu(self):
 		self.sendKey(iServiceKeys.keyUser+2)
@@ -483,13 +487,10 @@ class EMCMediaCenter( CutList, Screen, HelpableScreen, InfoBarSupport ):
 	##############################################################################
 	## DVD Player specific
 	def __serviceStarted(self):
-		pass
-		#if isinstance(self, InfoBarShowHide):
-		#	self.hide()
-#		if self.dvdScreen:
-#			# Force show dvd screen
-#			self.dvdScreen.hide()
-#			self.dvdScreen.show()
+		if self.dvdScreen:
+			# Force show dvd screen
+			#self.dvdScreen.hide()
+			self.dvdScreen.show()
 		
 	def __serviceStopped(self):
 		if self.dvdScreen:
@@ -559,10 +560,10 @@ class EMCMediaCenter( CutList, Screen, HelpableScreen, InfoBarSupport ):
 
 	def __menuOpened(self):
 		self.hide()
-		if self.dvdScreen:
-			# Force show dvd screen
-			self.dvdScreen.hide()
-			self.dvdScreen.show()
+		#if self.dvdScreen:
+		#	# Force show dvd screen
+		#	self.dvdScreen.hide()
+		#	self.dvdScreen.show()
 		self.in_menu = True
 		if self.has_key("ShowHideActions"):
 			self["ShowHideActions"].setEnabled(False)
@@ -574,8 +575,8 @@ class EMCMediaCenter( CutList, Screen, HelpableScreen, InfoBarSupport ):
 			self["DVDMenuActions"].setEnabled(True)
 
 	def __menuClosed(self):
-		if self.dvdScreen:
-			self.dvdScreen.hide()
+		#if self.dvdScreen:
+		#	self.dvdScreen.hide()
 		self.show()
 		self.in_menu = False
 		if self.has_key("DVDMenuActions"):
@@ -629,14 +630,15 @@ class EMCMediaCenter( CutList, Screen, HelpableScreen, InfoBarSupport ):
 
 	def doShow(self):
 		if self.in_menu:
-			self.hide()
-			if self.dvdScreen:
-				# Force show dvd screen
-				self.dvdScreen.hide()
-				self.dvdScreen.show()
+			pass
+			#self.hide()
+			#if self.dvdScreen:
+			#	# Force show dvd screen
+			#	self.dvdScreen.hide()
+			#	self.dvdScreen.show()
 		else:
-			if self.dvdScreen:
-				self.dvdScreen.hide()
+			#if self.dvdScreen:
+			#	self.dvdScreen.hide()
 			InfoBarShowHide.doShow(self)
 
 	# InfoBarCueSheetSupport
@@ -671,10 +673,10 @@ class EMCMediaCenter( CutList, Screen, HelpableScreen, InfoBarSupport ):
 	#	self.enterDVDMenu()
 
 	# InfoBarShowHide Key_Ok
-	#def toggleShow(self):
-	#	if not self.in_menu:
-	#		# Call baseclass function
-	#		InfoBarShowHide.toggleShow(self)
+	def toggleShow(self):
+		if not self.in_menu:
+			# Call baseclass function
+			InfoBarShowHide.toggleShow(self)
 
 	# InfoBarSeek
 #	def showAfterSeek(self):
