@@ -1,0 +1,711 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2 - enhancedmoviecenter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-02 20:51+0100\n"
+"PO-Revision-Date: 2011-03-02 20:53+0100\n"
+"Last-Translator: Spaeleus <spaeleus@croci.org>\n"
+"Language-Team: www.linsat.net <spaeleus@croci.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: \n"
+
+#: .../EMCTasker.py:160
+msgid "Next Enigma auto-restart in "
+msgstr "Riavvio automatico di enigma2  tra"
+
+#: .../EMCTasker.py:162
+msgid "Enigma auto-restart is currently not active."
+msgstr "Il riavvio automatico di enigma2 non è attivo."
+
+#: .../EMCTasker.py:174
+msgid "EMC Enigma2 auto-restart launching, continue? Select no to postpone by one hour."
+msgstr "EMC: riavvio automatico di enigma2 in attivazione: eseguirlo? Selezionando \"No\" verrà rimandato di un'ora."
+
+#: .../EnhancedMovieCenter.py:136
+msgid "Cancel"
+msgstr "Annull."
+
+#: .../EnhancedMovieCenter.py:137
+msgid "Save"
+msgstr "Salvare"
+
+#: .../EnhancedMovieCenter.py:146
+msgid "About"
+msgstr "Informazioni"
+
+#: .../EnhancedMovieCenter.py:147
+msgid "Start EMC with"
+msgstr "Avviare EMC con"
+
+#: .../EnhancedMovieCenter.py:148
+msgid "Show plugin config in extensions menu"
+msgstr "Configurazione del plugin in Menu estensioni"
+
+#: .../EnhancedMovieCenter.py:149
+msgid "Show EMC in extensions menu"
+msgstr "Mostrare EMC in Menu estensioni"
+
+#: .../EnhancedMovieCenter.py:150
+msgid "Disable EMC"
+msgstr "Disabilitare EMC"
+
+#: .../EnhancedMovieCenter.py:151
+msgid "Movie home at start"
+msgstr "Avvio in \"home\" registrazioni"
+
+#: .../EnhancedMovieCenter.py:152
+msgid "Movie home home path"
+msgstr "Percorso directory registrazioni"
+
+#: .../EnhancedMovieCenter.py:153
+msgid "EMC path access limit"
+msgstr "EMC: limiti accesso percorso"
+
+#: .../EnhancedMovieCenter.py:154
+msgid "Enable daily trashcan cleanup"
+msgstr "Abilitare svuotamento giornaliero cestino"
+
+#: .../EnhancedMovieCenter.py:155
+msgid "How many days files may remain in trashcan"
+msgstr "How many days files may remain in trashcan"
+
+#: .../EnhancedMovieCenter.py:156
+msgid "Daily trashcan cleanup time"
+msgstr "Ora di svuotamento giornaliero cestino"
+
+#: .../EnhancedMovieCenter.py:157
+msgid "Trashcan path"
+msgstr "Percorso cestino"
+
+#: .../EnhancedMovieCenter.py:158
+msgid "Delete validation"
+msgstr "Conferma cancellazione"
+
+#: .../EnhancedMovieCenter.py:159
+msgid "Hide trashcan directory"
+msgstr "Nascondere la directory cestino"
+
+#: .../EnhancedMovieCenter.py:160
+msgid "Sort file A to Z at startup"
+msgstr "All'avvio, ordinare alfabeticamente"
+
+#: .../EnhancedMovieCenter.py:161
+msgid "File order reverse"
+msgstr "Invertire l'ordine dei file"
+
+#: .../EnhancedMovieCenter.py:163
+msgid "EMC open with cursor on newest (TV mode)"
+msgstr "EMC: in apertura cursore sul più recente (mod.  TV)"
+
+#: .../EnhancedMovieCenter.py:164
+msgid "EMC open with cursor on newest (player)"
+msgstr "EMC: in apertura cursore sul più recente (player)"
+
+#: .../EnhancedMovieCenter.py:165
+msgid "Cursor predictive move after selection"
+msgstr "Movimento cursore predittivo dopo la selezione"
+
+#: .../EnhancedMovieCenter.py:166
+msgid "Listbox is skin able"
+msgstr "La listbox può possedere skin"
+
+#: .../EnhancedMovieCenter.py:167
+msgid "Show movie icons"
+msgstr "Mostrare le icone dei video"
+
+#: .../EnhancedMovieCenter.py:168
+msgid "Show movie progress"
+msgstr "Mostrare il progresso riproduzione"
+
+#: .../EnhancedMovieCenter.py:169
+msgid "Short watching percent"
+msgstr "Limite anteprima (%)"
+
+#: .../EnhancedMovieCenter.py:170
+msgid "Finished watching percent"
+msgstr "Limite visualizzazione completa (%)"
+
+#: .../EnhancedMovieCenter.py:171
+msgid "Show date"
+msgstr "Mostrare la data"
+
+#: .../EnhancedMovieCenter.py:172
+msgid "Show icon indication for non-watched"
+msgstr "Differenziare icone registrazioni non ancora viste"
+
+#: .../EnhancedMovieCenter.py:173
+msgid "Try to load titles from .meta files"
+msgstr "Tentare caricamento dei titoli da file .meta"
+
+#: .../EnhancedMovieCenter.py:174
+msgid "EMC always reload after open"
+msgstr "EMC: ricaricare sempre l'elenco all'avvio"
+
+#: .../EnhancedMovieCenter.py:175
+msgid "Leave Movie with Exit"
+msgstr "Abbandonare la riproduzione con Exit"
+
+#: .../EnhancedMovieCenter.py:176
+msgid "EMC re-open list after STOP-press"
+msgstr "EMC: riapertura elenco registrazioni su pressione STOP"
+
+#: .../EnhancedMovieCenter.py:177
+msgid "EMC re-open list after Movie end"
+msgstr "EMC: riapertura elenco registrazioni su fine riproduzione"
+
+#: .../EnhancedMovieCenter.py:178
+msgid "Display directory reading text"
+msgstr "Mostrare la directory di lettura"
+
+#: .../EnhancedMovieCenter.py:180
+msgid "Blue button function"
+msgstr "Funzione del tasto BLU"
+
+#: .../EnhancedMovieCenter.py:181
+msgid "Show Movie Format"
+msgstr "Mostrare formato registrazione"
+
+#: .../EnhancedMovieCenter.py:182
+msgid "Show Cut-Nr if exist"
+msgstr "Mostrare Cut-Nr, se esiste"
+
+#: .../EnhancedMovieCenter.py:183
+msgid "Hide movies being moved"
+msgstr "Nascondere le registrazioni spostate"
+
+#: .../EnhancedMovieCenter.py:184
+msgid "Hide movies being deleted"
+msgstr "Nascondere le registrazioni cancellate"
+
+#: .../EnhancedMovieCenter.py:185
+msgid "Hide VLC directory"
+msgstr "Nascondere la directory VLC"
+
+#: .../EnhancedMovieCenter.py:186
+msgid "Automatic timers list cleaning"
+msgstr "Pulizia automatica dell'elenco timer"
+
+#: .../EnhancedMovieCenter.py:187
+msgid "Enigma daily auto-restart"
+msgstr "Riavvio giornaliero di enigma2 (automatico)"
+
+#: .../EnhancedMovieCenter.py:188
+msgid "Enigma auto-restart window begin"
+msgstr "Finestra di riavvio automatico enigma2: inizio"
+
+#: .../EnhancedMovieCenter.py:189
+msgid "Enigma auto-restart window end"
+msgstr "Finestra di riavvio automatico enigma2: fine"
+
+#: .../EnhancedMovieCenter.py:190
+msgid "Force standby after auto-restart"
+msgstr "Forzare lo standby dopo il riavvio automatico"
+
+#: .../EnhancedMovieCenter.py:191
+msgid "Preferred EPG language"
+msgstr "Lingua EPG preferita"
+
+#: .../EnhancedMovieCenter.py:192
+msgid "Primary playback subtitle language"
+msgstr "Lingua sottotitoli: opzione preferenziale"
+
+#: .../EnhancedMovieCenter.py:193
+msgid "Secondary playback subtitle language"
+msgstr "Lingua sottotitoli: opzione secondaria"
+
+#: .../EnhancedMovieCenter.py:194
+msgid "Tertiary playback subtitle language"
+msgstr "Lingua sottotitoli: terza opzione"
+
+#: .../EnhancedMovieCenter.py:195
+msgid "Enable playback auto-subtitling"
+msgstr "Abilitare riproduzione con sottotitoli automatici"
+
+#: .../EnhancedMovieCenter.py:197
+msgid "Primary playback audio language"
+msgstr "Lingua: opzione preferenziale"
+
+#: .../EnhancedMovieCenter.py:198
+msgid "Secondary playback audio language"
+msgstr "Lingua: opzione secondaria"
+
+#: .../EnhancedMovieCenter.py:199
+msgid "Tertiary playback audio language"
+msgstr "Lingua: terza opzione"
+
+#: .../EnhancedMovieCenter.py:200
+msgid "Enable playback auto-language selection"
+msgstr "Abilitare la selezione automatica lingua"
+
+#: .../EnhancedMovieCenter.py:201
+msgid "EMC output directory"
+msgstr "EMC: directory di output"
+
+#: .../EnhancedMovieCenter.py:202
+msgid "Enable EMC debug output"
+msgstr "EMC: abilitare debug output"
+
+#: .../EnhancedMovieCenter.py:203
+msgid "Debug output file name"
+msgstr "Nome del file di output"
+
+#: .../EnhancedMovieCenter.py:204
+msgid "Description field update delay"
+msgstr "Ritardo aggiornamento campo descrizione"
+
+#: .../EnhancedMovieCenter.py:205
+msgid "Key period value (50-900)"
+msgstr "Ritardo ripetizione tasti (50-900)"
+
+#: .../EnhancedMovieCenter.py:206
+msgid "Key repeat value (250-900)"
+msgstr "Velocità  ripetizione tasti (250-900)"
+
+#: .../EnhancedMovieCenter.py:208
+msgid "Enable component video in A/V Settings"
+msgstr "Abilitare la voce  Component in configurazione A/V"
+
+#: .../EnhancedMovieCenter.py:255
+msgid "Some settings changes require GUI restart to take effect."
+msgstr "Per attivare le modifiche è necessario riavviare la GUI!"
+
+#: .../EnhancedMovieCenter.py:270
+#: .../MovieSelection.py:1108
+#: .../MovieSelectionMenu.py:110
+#: .../MovieSelectionMenu.py:152
+msgid "Choose directory"
+msgstr "Scegliere la directory"
+
+#: .../EnhancedMovieCenter.py:282
+#, python-format
+msgid "Given path %s does not exist. Please change."
+msgstr "Il percorso %s non esiste. Cambiarlo."
+
+#: .../MovieCenter.py:300
+msgid "< VLC >"
+msgstr "< VLC >"
+
+#: .../MovieCenter.py:303
+msgid "Directory"
+msgstr "Directory"
+
+#: .../MovieCenter.py:309
+msgid "< Link >"
+msgstr "< Link >"
+
+#: .../MoviePlayer.py:66
+#: .../MoviePlayer.py:73
+msgid "show event details"
+msgstr "Mostrare i dettagli evento"
+
+#: .../MoviePlayer.py:67
+#: .../MoviePlayer.py:74
+msgid "Stop playback"
+msgstr "Arrestare la riproduzione"
+
+#: .../MoviePlayer.py:68
+#: .../MoviePlayer.py:75
+msgid "Open extensions menu"
+msgstr "Aprire menu estensioni"
+
+#: .../MoviePlayer.py:140
+msgid "No DVD-Player found!"
+msgstr "Player DVD non trovato!"
+
+#: .../MoviePlayer.py:199
+msgid ""
+"Skipping movie, the file does not exist.\n"
+"\n"
+msgstr ""
+"Video ignorato, il file non esiste!\n"
+"\n"
+
+#: .../MovieSelection.py:110
+#: .../MovieSelection.py:204
+#: .../MovieSelection.py:444
+#: .../MovieSelection.py:449
+#: .../MovieSelection.py:450
+msgid "Alpha sort"
+msgstr "Ordine alfab."
+
+#: .../MovieSelection.py:111
+msgid "Reading directory..."
+msgstr "Lettura directory..."
+
+#: .../MovieSelection.py:122
+msgid "Play selected movie(s)"
+msgstr "Riprodurre registrazione"
+
+#: .../MovieSelection.py:124
+msgid "Close EMC"
+msgstr "Chiudere EMC"
+
+#: .../MovieSelection.py:125
+msgid "Open menu"
+msgstr "Aprire menu"
+
+#: .../MovieSelection.py:126
+msgid "Show event info"
+msgstr "Mostrare info evento"
+
+#: .../MovieSelection.py:127
+msgid "IMDBSearch"
+msgstr "Ricerca IMDB"
+
+#: .../MovieSelection.py:128
+msgid "Delete file or empty dir"
+msgstr "Cancellare file o directory vuota"
+
+#: .../MovieSelection.py:129
+msgid "Toggle sort mode"
+msgstr "Cambiare ordinamento"
+
+#: .../MovieSelection.py:130
+msgid "Move selected movie(s)"
+msgstr "Spostare registrazione"
+
+#: .../MovieSelection.py:131
+msgid "Movie home / Play last (configurable)"
+msgstr "Directory registrazioni/riprodurre l'ultima (configurabile)"
+
+#: .../MovieSelection.py:135
+msgid "Open bookmarks"
+msgstr "Aprire segnalibri"
+
+#: .../MovieSelection.py:136
+msgid "Move cursor page up"
+msgstr "Spostare il cursore 1 pagina sù"
+
+#: .../MovieSelection.py:137
+msgid "Move cursor page down"
+msgstr "Spostare il cursore 1 pagina giù"
+
+#: .../MovieSelection.py:138
+msgid "Move cursor up"
+msgstr "Cursore sù"
+
+#: .../MovieSelection.py:139
+msgid "Move cursor down"
+msgstr "Cursore giù"
+
+#: .../MovieSelection.py:140
+msgid "Move cursor to the top"
+msgstr "Cursore all'inizio"
+
+#: .../MovieSelection.py:141
+msgid "Move cursor to the end"
+msgstr "Cursore alla fine"
+
+#: .../MovieSelection.py:142
+msgid "Directory forward"
+msgstr "Directory successiva "
+
+#: .../MovieSelection.py:144
+msgid "Directory back"
+msgstr "Directory precedente"
+
+#: .../MovieSelection.py:146
+msgid "Toggle service selection"
+msgstr "Selezione canali On/Off"
+
+#: .../MovieSelection.py:147
+msgid "Remove service selection"
+msgstr "Rimuovere la selezione canali"
+
+#: .../MovieSelection.py:148
+#: .../MovieSelection.py:150
+msgid "Available plugins menu"
+msgstr "Menu plugin disponibili"
+
+#: .../MovieSelection.py:151
+msgid "Reload movie file list"
+msgstr "Ricaricare elenco registrazioni"
+
+#: .../MovieSelection.py:153
+msgid "Toggle viewed / not viewed"
+msgstr "Commutare visto/non visto"
+
+#: .../MovieSelection.py:155
+msgid "Start / end multiselection"
+msgstr "Avviare/arrestare selezione multipla"
+
+#: .../MovieSelection.py:392
+msgid "No script operation for VLC streams."
+msgstr "Nessuno script per stream VLC."
+
+#: .../MovieSelection.py:407
+msgid "Does not contain any scripts."
+msgstr "Nessuno script contenuto."
+
+#: .../MovieSelection.py:411
+msgid "Choose script"
+msgstr "Scegliere lo script"
+
+#: .../MovieSelection.py:418
+msgid "No functionality set..."
+msgstr "Nessuna funziona associata..."
+
+#: .../MovieSelection.py:426
+msgid "*** Multiselection active ***"
+msgstr "*** Multi selezione attiva ***"
+
+#: .../MovieSelection.py:445
+#: .../MovieSelection.py:446
+msgid "Date sort"
+msgstr "Ord. per data"
+
+#: .../MovieSelection.py:619
+#: .../MovieSelection.py:769
+msgid "Delete"
+msgstr "Cancellare"
+
+#: .../MovieSelection.py:621
+msgid "Move"
+msgstr "Spostare"
+
+#: .../MovieSelection.py:757
+msgid " Deleting remotely recorded and it will display an rec-error dialog on the other DB."
+msgstr " Cancellazione reg. remota in corso: un messaggio di errore sarà visualizzato sul DB remoto."
+
+#: .../MovieSelection.py:769
+msgid " permanently"
+msgstr " In modo permanente"
+
+#: .../MovieSelection.py:779
+msgid " currently played?"
+msgstr " attualmente in riproduzione?"
+
+#: .../MovieSelection.py:795
+msgid " all selected video files?"
+msgstr " tutti i file video selezionati?"
+
+#: .../MovieSelection.py:799
+msgid " all selected video files? The currently playing movie is also one of the selections and its playback will be stopped."
+msgstr " tutti i file video selezionati? Anche la riproduzione in corso è stata selezionata e verrà  arrestata."
+
+#: .../MovieSelection.py:801
+msgid "Delete error:\n"
+msgstr "Errore in cancellazione:\n"
+
+#: .../MovieSelection.py:818
+msgid "Delete failed because the trashcan directory does not exist. Attempt to create it now?"
+msgstr "Cancellazione fallita! La directory cestino non esiste. Crearla ora?"
+
+#: .../MovieSelection.py:831
+msgid "Directory is not empty."
+msgstr "La directory non è vuota."
+
+#: .../MovieSelection.py:836
+msgid "Cannot delete the parent directory."
+msgstr "La directory padre non è cancellabile."
+
+#: .../MovieSelection.py:892
+msgid "File not available."
+msgstr "File non disponibile."
+
+#: .../MovieSelection.py:899
+msgid "Last played movie/playlist not available..."
+msgstr "Ultima registrazione/playlist non disponibile..."
+
+#: .../MovieSelection.py:949
+msgid "Not stopping any repeating timers. Modify them with the timer editor."
+msgstr "Non arrestare i timer ripetuti. Modificarli attraverso l'editor timer."
+
+#: .../MovieSelection.py:956
+msgid "Stop ongoing recording?\n"
+msgstr "Arrestare la registrazione in corso?\n"
+
+#: .../MovieSelection.py:1098
+#: .../MovieSelection.py:1111
+msgid ""
+"How to move files:\n"
+"Select some movies with the VIDEO-button, move the cursor on top of the destination directory and press yellow."
+msgstr ""
+"Per spostare file:\n"
+"Selezionare i file con il tasto VIDEO, portare il cursore sulla destinazione e premere il tasto GIALLO."
+
+#: .../MovieSelection.py:1108
+#: .../MovieSelectionMenu.py:110
+#: .../MovieSelectionMenu.py:152
+msgid "Select Location"
+msgstr "Scegliere la destinazione"
+
+#: .../MovieSelection.py:1143
+msgid "Trashcan create failed. Check mounts and permissions."
+msgstr "Creazione cestino fallita! Controllare mount e permessi."
+
+#: .../MovieSelectionMenu.py:49
+msgid "Choose operation"
+msgstr "Scegliere operazione"
+
+#: .../MovieSelectionMenu.py:51
+#: .../plugin.py:65
+msgid "Play last"
+msgstr "Riprodurre l'ultimo"
+
+#: .../MovieSelectionMenu.py:53
+#: .../plugin.py:65
+msgid "Movie home"
+msgstr "Dir. registrazioni"
+
+#: .../MovieSelectionMenu.py:57
+msgid "Delete permanently"
+msgstr "Cancellare definitivamente"
+
+#: .../MovieSelectionMenu.py:59
+msgid "Empty trashcan"
+msgstr "Svuotare il cestino"
+
+#: .../MovieSelectionMenu.py:60
+msgid "Go to trashcan"
+msgstr "Andare al cestino"
+
+#: .../MovieSelectionMenu.py:61
+msgid "Mark all movies"
+msgstr "Contrassegnare tutte le registrazioni"
+
+#: .../MovieSelectionMenu.py:63
+msgid "Remove cut list marker"
+msgstr "Rimuovere i contrassegni di taglio"
+
+#: .../MovieSelectionMenu.py:64
+msgid "Remove rogue files"
+msgstr "Rimuovere file rogue"
+
+#: .../MovieSelectionMenu.py:65
+msgid "Create link(s)"
+msgstr "Creare link"
+
+#: .../MovieSelectionMenu.py:66
+#: .../MovieSelectionMenu.py:135
+msgid "Create directory"
+msgstr "Creare directory"
+
+#: .../MovieSelectionMenu.py:67
+msgid "Bookmark directory"
+msgstr "Etichettare la directory"
+
+#: .../MovieSelectionMenu.py:68
+msgid "Bookmarks"
+msgstr "Segnalibri"
+
+#: .../MovieSelectionMenu.py:74
+msgid "Choose plugin"
+msgstr "Scegliere il plugin"
+
+#: .../MovieSelectionMenu.py:79
+msgid "Choose bookmark"
+msgstr "Scegliere segnalibro"
+
+#: .../MovieSelectionMenu.py:135
+msgid "Enter name for new directory."
+msgstr "Inserire un nome per la nuova directory."
+
+#: .../MovieSelectionMenu.py:141
+msgid "Directory "
+msgstr "Directory "
+
+#: .../MovieSelectionMenu.py:169
+msgid "Permanently delete all files in trashcan?"
+msgstr "Rimuovere definitivamente i file nel cestino?"
+
+#: .../MovieSelectionMenu.py:177
+msgid "Movie Selection Menu"
+msgstr "Menu selezione registrazioni"
+
+#: .../MovieSelectionMenu.py:186
+msgid "Locate rogue files and remove them? (permanently if no trashcan available, may take a minute or so)"
+msgstr "Individuare file rougue e rimuoverli? (definitivamente se cestino non disponibile, occorrerà circa un minuto)"
+
+#: .../MovieSelectionMenu.py:201
+msgid "Remove all cut file marker permanently?"
+msgstr "Rimuovere definitivamente i contrassegni di taglio?"
+
+#: .../plugin.py:70
+msgid "ProgressBar"
+msgstr "Barra di avanzamento"
+
+#: .../plugin.py:70
+msgid "Percent (%)"
+msgstr "Percentuale (%)"
+
+#: .../plugin.py:70
+msgid "Off"
+msgstr "Off"
+
+#: .../plugin.py:97
+msgid "down"
+msgstr "Giù"
+
+#: .../plugin.py:97
+msgid "up/down"
+msgstr "Sù/Giù"
+
+#: .../plugin.py:97
+msgid "off"
+msgstr "Off"
+
+#: .../plugin.py:101
+msgid "No override"
+msgstr "Non configurare"
+
+#: .../plugin.py:102
+msgid "Video-button"
+msgstr "Tasto VIDEO"
+
+#: .../plugin.py:103
+msgid "TV-button"
+msgstr "Tasto TV"
+
+#: .../plugin.py:104
+msgid "Radio-button"
+msgstr "Tasto RADIO"
+
+#: .../plugin.py:105
+msgid "Quick-button"
+msgstr "Quick-button"
+
+#: .../plugin.py:106
+msgid "Timeshift-button"
+msgstr "Tasto timeshift"
+
+#: .../plugin.py:164
+msgid "configuration"
+msgstr "Configurazione"
+
+#: .../plugin.py:167
+msgid "movie manipulation list"
+msgstr "Elenco gestione registrazioni"
+
+#: .../RogueFileCheck.py:38
+msgid " files\n"
+msgstr "File\n"
+
+#: .../RogueFileCheck.py:39
+msgid "No rogue files found."
+msgstr "Nessun file rogue individuato."
+
+#: .../RogueFileCheck.py:40
+msgid ""
+"Found rogue files:\n"
+"\n"
+msgstr ""
+"Individuati file rogue:\n"
+"\n"
+
+#~ msgid "Move cursor 1/2 page up"
+#~ msgstr "Spostare il cursore 1/2 pagina sù"
+#~ msgid "Move cursor 1/2 page down"
+#~ msgstr "Spostare il cursore 1/2 pagina giù"
+#~ msgid "Error: path '%s' not available!"
+#~ msgstr "Errore: il percorso \"%s\" non è disponibile!"
+
