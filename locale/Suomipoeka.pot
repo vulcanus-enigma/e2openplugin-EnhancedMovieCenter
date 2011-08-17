@@ -1,0 +1,598 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-27 16:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: MovieList.py:88
+msgid "Directory"
+msgstr ""
+
+#: MoviePlayer.py:52
+msgid "show event details"
+msgstr ""
+
+#: MoviePlayer.py:53
+msgid "Stop playback"
+msgstr ""
+
+#: MoviePlayer.py:54
+msgid "Open extensions menu"
+msgstr ""
+
+#: MoviePlayer.py:121
+msgid ""
+"Skipping movie, the file does not exist.\n"
+"\n"
+msgstr ""
+
+#: MovieSelection.py:145 MovieSelection.py:565 MovieSelection.py:570
+#: MovieSelection.py:571
+msgid "Alpha sort"
+msgstr ""
+
+#: MovieSelection.py:155
+msgid "Play selected movie(s)"
+msgstr ""
+
+#: MovieSelection.py:157
+msgid "Close movie list"
+msgstr ""
+
+#: MovieSelection.py:158
+msgid "Open menu"
+msgstr ""
+
+#: MovieSelection.py:159
+msgid "Show event info"
+msgstr ""
+
+#: MovieSelection.py:161
+msgid "Delete file or empty dir"
+msgstr ""
+
+#: MovieSelection.py:162
+msgid "Toggle sort mode"
+msgstr ""
+
+#: MovieSelection.py:163
+msgid "Move selected movie(s)"
+msgstr ""
+
+#: MovieSelection.py:164
+msgid "Movie home / Play last (configurable)"
+msgstr ""
+
+#: MovieSelection.py:168
+msgid "Open bookmarks"
+msgstr ""
+
+#: MovieSelection.py:169
+msgid "Move cursor page up"
+msgstr ""
+
+#: MovieSelection.py:170
+msgid "Move cursor page down"
+msgstr ""
+
+#: MovieSelection.py:171
+msgid "Move cursor up"
+msgstr ""
+
+#: MovieSelection.py:172
+msgid "Move cursor down"
+msgstr ""
+
+#: MovieSelection.py:173
+msgid "Move cursor 1/2 page up"
+msgstr ""
+
+#: MovieSelection.py:174
+msgid "Move cursor 1/2 page down"
+msgstr ""
+
+#: MovieSelection.py:179
+msgid "Toggle service selection"
+msgstr ""
+
+#: MovieSelection.py:180 MovieSelection.py:182
+msgid "Available plugins menu"
+msgstr ""
+
+#: MovieSelection.py:183
+msgid "Reload movie file list"
+msgstr ""
+
+#: MovieSelection.py:185
+msgid "Toggle viewed / not viewed"
+msgstr ""
+
+#: MovieSelection.py:187
+msgid "Start / end multiselection"
+msgstr ""
+
+#: MovieSelection.py:198
+msgid "No functionality set..."
+msgstr ""
+
+#: MovieSelection.py:273 MovieSelection.py:499
+msgid "Delete"
+msgstr ""
+
+#: MovieSelection.py:275
+msgid "Move"
+msgstr ""
+
+#: MovieSelection.py:328
+msgid "Last played movie/playlist not available..."
+msgstr ""
+
+#: MovieSelection.py:347 MovieSelectionMenu.py:164
+msgid "Permanently delete all files in trashcan?"
+msgstr ""
+
+#: MovieSelection.py:349
+msgid "Directory is not empty."
+msgstr ""
+
+#: MovieSelection.py:354
+msgid "Cannot delete the parent directory."
+msgstr ""
+
+#: MovieSelection.py:397
+msgid "File not available."
+msgstr ""
+
+#: MovieSelection.py:468
+msgid "Stop ongoing recording?\n"
+msgstr ""
+
+#: MovieSelection.py:479
+msgid "Not stopping any repeating timers. Modify them with the timer editor."
+msgstr ""
+
+#: MovieSelection.py:487
+msgid ""
+" Deleting remotely recorded and it will display an rec-error dialog on the "
+"other DB."
+msgstr ""
+
+#: MovieSelection.py:499
+msgid " permanently"
+msgstr ""
+
+#: MovieSelection.py:506
+msgid " currently played?"
+msgstr ""
+
+#: MovieSelection.py:521
+msgid " all selected video files?"
+msgstr ""
+
+#: MovieSelection.py:523
+msgid ""
+" all selected video files? The currently playing movie is also one of the "
+"selections and its playback will be stopped."
+msgstr ""
+
+#: MovieSelection.py:525
+msgid "Delete error:\n"
+msgstr ""
+
+#: MovieSelection.py:541
+msgid ""
+"Delete failed because the trashcan directory does not exist. Attempt to "
+"create it now?"
+msgstr ""
+
+#: MovieSelection.py:566 MovieSelection.py:567
+msgid "Date sort"
+msgstr ""
+
+#: MovieSelection.py:584 MovieSelection.py:586
+#, python-format
+msgid "Error: path '%s' not available!"
+msgstr ""
+
+#: MovieSelection.py:592
+msgid "*** Multiselection active ***"
+msgstr ""
+
+#: MovieSelection.py:635 MovieSelection.py:648
+msgid ""
+"How to move files:\n"
+"Select some movies with the VIDEO-button, move the cursor on top of the "
+"destination directory and press yellow."
+msgstr ""
+
+#: MovieSelection.py:645 MovieSelectionMenu.py:110 MovieSelectionMenu.py:130
+msgid "Select Location"
+msgstr ""
+
+#: MovieSelection.py:645 MovieSelectionMenu.py:110 MovieSelectionMenu.py:130
+#: Suomipoeka.py:247
+msgid "Choose directory"
+msgstr ""
+
+#: MovieSelection.py:751
+msgid "Trashcan create failed. Check mounts and permissions."
+msgstr ""
+
+#: MovieSelectionMenu.py:47
+msgid "Choose operation"
+msgstr ""
+
+#: MovieSelectionMenu.py:49 plugin.py:60
+msgid "Play last"
+msgstr ""
+
+#: MovieSelectionMenu.py:51 plugin.py:60
+msgid "Movie home"
+msgstr ""
+
+#: MovieSelectionMenu.py:55
+msgid "Delete permanently"
+msgstr ""
+
+#: MovieSelectionMenu.py:56
+msgid "Empty trashcan"
+msgstr ""
+
+#: MovieSelectionMenu.py:57
+msgid "Go to trashcan"
+msgstr ""
+
+#: MovieSelectionMenu.py:58
+msgid "Remove rogue files"
+msgstr ""
+
+#: MovieSelectionMenu.py:59
+msgid "Create link(s)"
+msgstr ""
+
+#: MovieSelectionMenu.py:60 MovieSelectionMenu.py:146
+msgid "Create directory"
+msgstr ""
+
+#: MovieSelectionMenu.py:61
+msgid "Bookmark directory"
+msgstr ""
+
+#: MovieSelectionMenu.py:62
+msgid "Bookmarks"
+msgstr ""
+
+#: MovieSelectionMenu.py:64
+msgid "Choose plugin"
+msgstr ""
+
+#: MovieSelectionMenu.py:69
+msgid "Choose bookmark"
+msgstr ""
+
+#: MovieSelectionMenu.py:91
+msgid "Movie Selection Menu"
+msgstr ""
+
+#: MovieSelectionMenu.py:146
+msgid "Enter name for new directory."
+msgstr ""
+
+#: MovieSelectionMenu.py:152
+msgid "Directory "
+msgstr ""
+
+#: MovieSelectionMenu.py:174
+msgid ""
+"Locate rogue files and remove them? (permanently if no trashcan available, "
+"may take a minute or so)"
+msgstr ""
+
+#: RogueFileCheck.py:34
+msgid " files\n"
+msgstr ""
+
+#: RogueFileCheck.py:35
+msgid "No rogue files found."
+msgstr ""
+
+#: RogueFileCheck.py:36
+msgid ""
+"Found rogue files:\n"
+"\n"
+msgstr ""
+
+#: Suomipoeka.py:140
+msgid "Cancel"
+msgstr ""
+
+#: Suomipoeka.py:141
+msgid "Save"
+msgstr ""
+
+#: Suomipoeka.py:150
+msgid "About"
+msgstr ""
+
+#: Suomipoeka.py:151
+msgid "Button to override for MovieList launch"
+msgstr ""
+
+#: Suomipoeka.py:152
+msgid "Show plugin config in extensions menu"
+msgstr ""
+
+#: Suomipoeka.py:153
+msgid "Show MovieList in extensions menu"
+msgstr ""
+
+#: Suomipoeka.py:154
+msgid "Preferred EPG language"
+msgstr ""
+
+#: Suomipoeka.py:155
+msgid "Primary playback subtitle language"
+msgstr ""
+
+#: Suomipoeka.py:156
+msgid "Secondary playback subtitle language"
+msgstr ""
+
+#: Suomipoeka.py:157
+msgid "Tertiary playback subtitle language"
+msgstr ""
+
+#: Suomipoeka.py:158
+msgid "Enable playback auto-subtitling"
+msgstr ""
+
+#: Suomipoeka.py:159
+msgid "Primary playback audio language"
+msgstr ""
+
+#: Suomipoeka.py:160
+msgid "Secondary playback audio language"
+msgstr ""
+
+#: Suomipoeka.py:161
+msgid "Tertiary playback audio language"
+msgstr ""
+
+#: Suomipoeka.py:162
+msgid "Enable playback auto-language selection"
+msgstr ""
+
+#: Suomipoeka.py:163
+msgid "Movie home auto-update perms (chmod)"
+msgstr ""
+
+#: Suomipoeka.py:164
+msgid "Movie home chmod permission value"
+msgstr ""
+
+#: Suomipoeka.py:165
+msgid "Movie home home path"
+msgstr ""
+
+#: Suomipoeka.py:166
+msgid "Movie trashcan path"
+msgstr ""
+
+#: Suomipoeka.py:167
+msgid "How many days files may remain in trashcan"
+msgstr ""
+
+#: Suomipoeka.py:168
+msgid "Disable MovieList"
+msgstr ""
+
+#: Suomipoeka.py:169
+msgid "MovieList path access limit"
+msgstr ""
+
+#: Suomipoeka.py:170
+msgid "MovieList disable desc field"
+msgstr ""
+
+#: Suomipoeka.py:171
+msgid "MovieList desc field update delay"
+msgstr ""
+
+#: Suomipoeka.py:172
+msgid "MovieList file order reverse"
+msgstr ""
+
+#: Suomipoeka.py:173
+msgid "MovieList open with cursor on newest (TV mode)"
+msgstr ""
+
+#: Suomipoeka.py:174
+msgid "MovieList open with cursor on newest (player)"
+msgstr ""
+
+#: Suomipoeka.py:175
+msgid "MovieList cursor predictive move after selection"
+msgstr ""
+
+#: Suomipoeka.py:176
+msgid "MovieList file dates on left side"
+msgstr ""
+
+#: Suomipoeka.py:177
+msgid "MovieList show movie icons"
+msgstr ""
+
+#: Suomipoeka.py:178
+msgid "MovieList show icon indication for non-watched"
+msgstr ""
+
+#: Suomipoeka.py:179
+msgid "MovieList try to load titles from .meta files"
+msgstr ""
+
+#: Suomipoeka.py:180
+msgid "MovieList re-open list after STOP-press"
+msgstr ""
+
+#: Suomipoeka.py:181
+msgid "MovieList always reload after open"
+msgstr ""
+
+#: Suomipoeka.py:182
+msgid "MovieList blue button function"
+msgstr ""
+
+#: Suomipoeka.py:183
+msgid "MovieList cifs* files operation"
+msgstr ""
+
+#: Suomipoeka.py:184
+msgid "MovieList hide movies being moved"
+msgstr ""
+
+#: Suomipoeka.py:185
+msgid "MovieList hide movies being deleted"
+msgstr ""
+
+#: Suomipoeka.py:186
+msgid "MovieList hide trashcan directory"
+msgstr ""
+
+#: Suomipoeka.py:187
+msgid "MovieList hide VLC directory"
+msgstr ""
+
+#: Suomipoeka.py:188
+msgid "Automatic timers list cleaning"
+msgstr ""
+
+#: Suomipoeka.py:190
+msgid "Enigma daily auto-restart"
+msgstr ""
+
+#: Suomipoeka.py:191
+msgid "Enigma auto-restart window begin"
+msgstr ""
+
+#: Suomipoeka.py:192
+msgid "Enigma auto-restart window end"
+msgstr ""
+
+#: Suomipoeka.py:193
+msgid "Force standby after auto-restart"
+msgstr ""
+
+#: Suomipoeka.py:194
+msgid "Suomipoeka output directory"
+msgstr ""
+
+#: Suomipoeka.py:195
+msgid "Enable Suomipoeka debug output"
+msgstr ""
+
+#: Suomipoeka.py:196
+msgid "Debug output file name"
+msgstr ""
+
+#: Suomipoeka.py:197
+msgid "Key period value (30-900)"
+msgstr ""
+
+#: Suomipoeka.py:198
+msgid "Key repeat value (250-900)"
+msgstr ""
+
+#: Suomipoeka.py:200
+msgid "Enable component video in A/V Settings"
+msgstr ""
+
+#: Suomipoeka.py:232
+#, python-format
+msgid "Given path %s does not exist. Please change."
+msgstr ""
+
+#: Suomipoeka.py:265
+msgid "Some settings changes require GUI restart to take effect."
+msgstr ""
+
+#: SuomipoekaTasker.py:148
+msgid "Next Enigma auto-restart in "
+msgstr ""
+
+#: SuomipoekaTasker.py:150
+msgid "Enigma auto-restart is currently not active."
+msgstr ""
+
+#: SuomipoekaTasker.py:162
+msgid ""
+"Suomipoeka Enigma2 auto-restart launching, continue? Select no to postpone "
+"by one hour."
+msgstr ""
+
+#: plugin.py:82
+msgid "down"
+msgstr ""
+
+#: plugin.py:82
+msgid "up/down"
+msgstr ""
+
+#: plugin.py:82
+msgid "off"
+msgstr ""
+
+#: plugin.py:83
+msgid "unhide"
+msgstr ""
+
+#: plugin.py:83
+msgid "delete"
+msgstr ""
+
+#: plugin.py:83
+msgid "do nothing"
+msgstr ""
+
+#: plugin.py:86
+msgid "No override"
+msgstr ""
+
+#: plugin.py:87
+msgid "Video-button"
+msgstr ""
+
+#: plugin.py:88
+msgid "TV-button"
+msgstr ""
+
+#: plugin.py:89
+msgid "Radio-button"
+msgstr ""
+
+#: plugin.py:90
+msgid "Quick-button"
+msgstr ""
+
+#: plugin.py:91
+msgid "Timeshift-button"
+msgstr ""
+
+#: plugin.py:156
+msgid "configuration"
+msgstr ""
+
+#: plugin.py:159
+msgid "movie manipulation list"
+msgstr ""
