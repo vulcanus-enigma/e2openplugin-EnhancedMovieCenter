@@ -1,0 +1,4 @@
+# ignore pydev/eclipse meta
+.project
+.pydevproject
+.settings/
